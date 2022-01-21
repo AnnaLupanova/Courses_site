@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    min-height: 100vw;
+    width: 100%;
+    background: #000;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background: url("images/main-screen__bgc.png");
+    background-size: cover ;
+    width: 100%;
+}
+header a {
+    color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom: 9.90vw;
+}
+
+.logo{
+    width: 2.08vw;
+    margin-right: 27.19vw ;
+
+}
+.menu{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-right: 2.92vw ;
+    font: 300 0.83vw Roboto ;
+    }
+li:hover{
+    transform: scale(1.2);
+}
+.item_menu:hover{
+    color: #7C6AFA;
+    transition: all .3s;
+}
+.button_logging{
+    width: 9.53vw ;
+    padding: 0.52vw 1.56vw;
+    color: white;
+    border-radius: 2.60vw;
+    margin-left: 11.15vw;
+    border: none;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    font: 300 0.83vw Roboto;
+}
+.button_logging:hover{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.first_title{
+    font: 700 3.33vw Roboto;
+    color: white;
+    width: 47.92vw;
+    margin-left: 16.25vw;
+    margin-bottom: 2.60vw;
+}
+.start_date{
+    display: flex;
+    justify-content: space-between;
+    width: 26.51vw;
+    margin-left: 16.25vw;
+
+}
+.column_date{
+    background: #121212;
+    height: 5.83vw;
+    width: 5.57vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 11.35vw ;
+}
+.number_date{
+    color: white;
+    font: 700 1.88vw Roboto;
+    text-align: center;
+}
+.string_date{
+    color: white;
+    font: 300 0.83vw Roboto;
+    text-align: center;
+    opacity: 0.4;
+}
+.statistics{
+    display: flex;
+    justify-content: center;
+    background: #121212;
+    padding-bottom: 1.46vw;
+    padding-top: 1.88vw;
+    align-items: center;
+
+}
+.info_about_students_statistics{
+    display: flex;
+    color: white;
+    width: 12.03vw;
+    justify-content: space-between;
+    margin-right: 4.22vw;
+    margin-top: 0.52vw;
+}
+.last_column{
+    width: 14.53vw;
+}
+.summa{
+    display: flex;
+    width: 37.19vw;
+    justify-content: space-between;
+
+}
+#progress {
+    width: 37.19vw;
+    background: white;
+    height: 0.31vw;
+    margin-bottom: 0.26vw;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    width: 60%;
+    height: 100%;
+    margin-top: 0.42vw;
+}
+.order_courses{
+    font: 700 0.83vw Roboto;
+    color: white;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 2.60vw ;
+    border: none;
+    padding: 0.40vw 1.56vw;
+    margin-right: 4.22vw;
+    height: 2.29vw;
+
+
+}
+.order_courses:hover{
+    cursor: pointer;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    color: #ffffff;
+    transition: all .5s;
+}
+.statistics_title , .range{
+    color: white;
+    font: 300 0.83vw Roboto;
+    opacity: 0.4;
+}
+.statistics_number{
+    font: 700 0.83vw Roboto;
+}
+.about_work{
+    display: flex ;
+    margin-top: 10.42vw;
+    justify-content: center;
+}
+.square{
+    width: 27.40vw;
+    height: 25.99vw;
+    background: transparent;
+    border: 20px solid transparent;
+    border-image: linear-gradient(to right, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-image-slice: 1;
+    margin-right: 7.24vw;
+
+    margin-bottom: 12.66vw;
+}
+.img_computer{
+    margin-top: 3.44vw;
+    margin-left: 0.52vw;
+    width: 23.23vw;
+    height: 23.23vw;
+
+}
+.title{
+    color: white;
+    font: 700 2.50vw Roboto;
+}
+.title_about{
+    margin-bottom: 2.34vw;
+}
+.text_about{
+    color: white;
+    font: 300 0.83vw Roboto;
+    width: 33.13vw;
+    line-height: 1.30vw;
+}
+.ellipse{
+    width: 4.69vw;
+    margin-right: 1.04vw;
+    height: 2.97vw;
+}
+.title_start{
+    display: flex;
+}
+.start_text{
+
+    margin: 2.55vw 0 4.17vw 0;
+
+}
+.row{
+    display: flex;
+}
+.opacity_text{
+    color: white;
+    font: 400 0.83vw Roboto;
+    opacity: 0.4;
+    width: 21.41vw;
+    line-height: 1.30vw;
+
+}
+.infographic{
+    display: flex;
+    margin-bottom: 10.42vw;
+
+}
+.percent{
+    font:700 1.88vw Roboto;
+    color: white;
+
+}
+.rectangle_main{
+    height:4.17vw;
+    margin-bottom: 1.82vw;
+}
+.decs_graphic_100{
+    width: 15.94vw;
+}
+.decs_graphic_75{
+    width: 15.94vw;
+    margin-top: -0.52vw;
+}
+.decs_graphic_50{
+    width: 15.94vw;
+    margin-top: -1.30vw;
+}
+.decs_graphic_end{
+    width: 15.94vw;
+  margin-top: -1.82vw;
+}
+.rectangle{
+    width: 16.88vw;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    height: 4.17vw;
+    animation-duration: 1s;
+    animation-name: rectangle_100;
+    border-color: transparent;
+    margin-bottom: 1.82vw;
+}
+.rectangle_75{
+    height:3.13vw ;
+    margin-top: 0.52vw ;
+    animation-duration: 1s;
+    animation-name: rectangle_75;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+.rectangle_50{
+    height: 1.56vw;
+    margin-top: 1.30vw;
+    animation-duration: 1s;
+    animation-name: rectangle_50;
+
+}
+.rectangle_end{
+    height: 0.52vw;
+    margin-top: 1.82vw;
+    animation-duration: 1s;
+    animation-name: rectangle_end;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+}
+@keyframes rectangle_100 {
+    from{
+        height: 0;
+    }
+    to{
+        height: 4.17vw;
+    }
+}
+@keyframes rectangle_75 {
+    from{
+        height: 0;
+    }
+    to{
+        height: 3.13vw;
+    }
+
+}
+@keyframes rectangle_50 {
+    from{
+        height: 0;
+    }
+    to{
+        height: 1.56vw;
+    }
+
+}
+@keyframes rectangle_end {
+    from{
+        height: 0;
+    }
+    to{
+        height: 0.52vw;
+    }
+
+}
+.decs_graphic{
+
+
+}
+.fast_start{
+    width: 68.49vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.advantages{
+    width: 67.50vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.advantages_items{
+    display: flex;
+    margin-bottom: 12.03vw ;
+}
+.title_advantages{
+    color: white;
+    font: 400 1.25vw Roboto;
+    line-height: 1.30vw;
+    margin-bottom: 1.56vw;
+}
+.decs_advantages{
+    color: white;
+    font: 300 0.83vw Roboto;
+    line-height: 1.30vw;
+    width: 18.65vw;
+    margin:0 auto;
+    text-align: center;
+    opacity: 0.8;
+}
+.icon_advantages{
+    margin:6.25vw 0 3.13vw 0 ;
+    width: 5.21vw;
+}
+.partners{
+    width: 68.49vw;
+    margin: 0 auto;
+}
+.title_partners{
+    display: flex;
+    margin-bottom: 3.13vw;
+}
+.table_icon_partners{
+    display: flex;
+    width: 67.50vw;
+}
+.icon_partners{
+    margin: 1.51vw 3.44vw;
+    width: 10.31vw;
+
+}
+td{
+    border: 1px solid;
+    border-color: rgba(255,255,255,.3);
+}
+.table_partners{
+    border-collapse: collapse;
+    border: 2px solid transparent;
+    margin-bottom: 12.71vw;
+}
+.ellipse_program{
+    margin-bottom: 3.96vw;
+    width: 4.74vw;
+}
+.text_about_st{
+
+    width: 21.41vw;
+    margin: 1.56vw auto 4.17vw;
+
+}
+.program{
+    width:39.06vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.number_week{
+    color: white;
+    opacity: .5;
+    font: 300 0.73vw Roboto;
+    margin-bottom: 0.78vw;
+
+}
+.table_calendar{
+    border-collapse: collapse;
+    margin-bottom:11.25vw;
+    height: 35.26vw;
+}
+.cell_table{
+    border: none;
+    text-align: left;
+    padding:0 3.13vw ;
+}
+.table_calendar tbody td:nth-child(odd){
+    border-right: 0.31vw solid #7C6AFA;
+    text-align: right;
+
+}
+.caption_part_courses{
+    color: white;
+    font: 400 0.94vw Roboto;
+    line-height: 0.94vw;
+}
+.teachers{
+    width: 69.84vw;
+    margin: 0 auto;
+}
+.title_section_teachers{
+    display: flex;
+    margin-bottom: 5.89vw;
+}
+.teacher_card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10.42vw;
+
+}
+.teacher_foto{
+    width: 9.90vw;
+}
+.name_teacher{
+    color: white;
+    font: 500 1.25vw Roboto;
+    margin: 2.08vw 0 0.78vw;
+}
+.position_teacher{
+    color: white;
+    font: 300 0.83vw Roboto;
+    margin-bottom: 1.56vw;
+    opacity: .8;
+}
+.column_teacher{
+    text-align: center;
+}
+.biography{
+    background: transparent;
+    border-radius: 0.98vw;
+    border: 1px solid white;
+    color: white;
+    font: 300 0.83vw Roboto;
+    padding: 0.26vw 1.54vw;
+}
+.biography:hover{
+    cursor: pointer;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transition: all .1s ease;
+    border: none;
+}
+footer{
+    width: 28.49vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_text{
+    margin: 1.56vw auto 3.13vw;
+}
+.form{
+    position: relative;
+    width: 25.63vw;
+    display: flex;
+    margin: 0 auto 2.08vw;
+}
+.input_email{
+    width: 18.39vw;
+    height: 2.29vw ;
+    font: 300 0.73vw Roboto;
+    padding-left: 1.23vw;
+    border-radius: 2.60vw;
+    border: none;
+    color: white;
+    background: rgba(255,255,255,0.3);
+    margin-left: 10px;
+    outline:none;
+
+
+}
+input[type="email"]::-webkit-input-placeholder {
+    color: white;
+    opacity:.8 ;
+}
+.follow{
+    height: 2.29vw ;
+    width: 8.33vw;
+    border-radius: 2.60vw;
+    border: none;
+    position: absolute;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    color:white;
+    right: 1.35vw;
+    font: 500 0.93vw Roboto;
+}
+.follow:hover{
+    cursor: pointer;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.social_network{
+    display: flex;
+    width: 15.10vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 2.60vw;
+}
+.icon_soc_ntw{
+    width: 2.60vw;
+    height: 2.60vw;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.fab{
+    color: white;
+    font-size: 1.04vw;
+    margin: 0 auto;
+}
+.icon_soc_ntw:hover{
+    cursor: pointer;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.license{
+    font: 400 0.83vw Roboto;
+    color: rgba(255,255,255,.8);
+    margin-bottom: 1.56vw;
+}
+
